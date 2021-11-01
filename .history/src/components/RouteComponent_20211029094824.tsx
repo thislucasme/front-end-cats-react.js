@@ -1,0 +1,8 @@
+import { Route, Routes } from 'react-router'
+export const RouteCommponent = () => {
+	return (
+		<BrowserRouter>
+
+		</BrowserRouter>
+	);
+}
