@@ -6,7 +6,6 @@ import reportWebVitals from "./reportWebVitals"
 import * as serviceWorker from "./serviceWorker"
 import { ChakraProvider } from '@chakra-ui/react'
 import theme from "./theme/theme";
-import './theme/styles.css';
 
 ReactDOM.render(
   <React.StrictMode>
