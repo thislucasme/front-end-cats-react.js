@@ -47,7 +47,7 @@ export const Lista = (props: Props) => {
 							<Td>{res.sexo}</Td>
 							<Td><Button ml={4} variant={"ghost"} onClick={() => { props.onDelete(res.idGato) }}><Image src="https://i.ibb.co/89zmrZs/delete.png" /></Button></Td>
 						</Tr>
-					)).reverse()
+					)).reverse()	
 				}
 
 			</Tbody>
